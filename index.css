@@ -1,0 +1,42 @@
+#header{
+  background-color:#7fd56a
+  width:95%;
+  height:90px;
+  margin:5px, 5px, 5px, 5px;
+  z-index:1;position:fixed;
+
+
+}
+body{
+  background-image: url("http://dev.thewallpapers.org/wallpapers/11/1136/thumb/600_Fresh-Fruits-093.jpg");
+  background-image:fill;
+  background-size: 75em;
+}
+#link{
+  background-color:#7fd56a;
+  width:25em;
+  height:6em;
+  margin-left:75px;
+  margin-top: 74px;
+  text-align:center;
+  padding-top:1px;
+  border-radius: 40%;
+  border-style:solid;
+  border-color: #591d95;
+  border-width:10px;
+  padding-bottom:6px;
+}
+#link2{
+  font-size:25px;
+  font-family: Papyrus, fantasy;
+  border-style:solid;
+  border-color:#df9949;
+  border-width:5px;
+  border-radius:20px;
+  padding-top:4px;
+  margin-bottom: 20px;
+}
+#actual_link:hover{
+  text-decoration:underline;
+  color:#591d95;
+}
