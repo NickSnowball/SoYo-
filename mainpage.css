@@ -13,3 +13,28 @@ menu, nav, section { display: block; }
 #page-wrap { width: 960px; margin: 60px auto; }
 
 h1 { font: normal 32px Helvetica, Arial, Sans-Serif; letter-spacing: -1px; margin: 0 0 15px 0; }
+body{
+  background-image: url("http://ys-ccc.com/Paper/MF%20Paper/Light%20green%20CK-4102.jpg");
+  background-size: 40em;
+}
+#MainpageTitle {
+  background-image: url("http://backgrounds.picaboo.com/download/dc/c3/dc35f7a926e64c2aaf1cf5aa6f2b7d89/Purple%20Pattern%201.jpg");
+  background-color: green;
+  width:100%;
+  height:50px;
+  color:black;
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:20px;
+  margin-bottom:0px;
+  border-radius:5px;
+  font-family: Papyrus, fantasy;
+  font-size:45px;
+}
+#logo{
+  position:relative;
+  width:500px;
+  height:500px;
+  margin-top:1px;
+  margin-left:2em;
+}

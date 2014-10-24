@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>SoYo mainpage</title>
+  <link rel="stylesheet" type="text/css" href="flavors.css">
+
+  <style>
+
+    .breadcrumb {
+      list-style: none;
+      overflow: hidden;
+      font: 18px Papyrus, fantasy;
+    }
+    .breadcrumb li {
+      float: left;
+    }
+    .breadcrumb li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 0 10px 55px;
+      background: #1df135;                   /* fallback color */
+      background: #1df135;
+      position: relative;
+      display: block;
+      float: left;
+    }
+    .breadcrumb li a:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+      border-bottom: 50px solid transparent;
+      border-left: 30px solid #1df135;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      left: 100%;
+      z-index: 2;
+    }
+    .breadcrumb li a:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+      border-bottom: 50px solid transparent;
+      border-left: 30px solid white;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      margin-left: 1px;
+      left: 100%;
+      z-index: 1;
+    }
+    .breadcrumb li:first-child a {
+      padding-left: 10px;
+    }
+    .breadcrumb li:nth-child(2) a       { background:        #23f090; }
+    .breadcrumb li:nth-child(2) a:after { border-left-color: #23f090; }
+    .breadcrumb li:nth-child(3) a       { background:        #8ef57a; }
+    .breadcrumb li:nth-child(3) a:after { border-left-color: #8ef57a; }
+    .breadcrumb li:nth-child(4) a       { background:        #a2fdb3; }
+    .breadcrumb li:nth-child(4) a:after { border-left-color: #a2fdb3; }
+
+}
+    .breadcrumb li:last-child a:after { border: 0; }
+    .breadcrumb li a:hover { background: #591d95; }
+    .breadcrumb li a:hover:after { border-left-color: #591d95 !important; }
+
+  </style>
+
+</head>
+
+<body>
+
+<?php // $description = ""; ?>
+<?php include('../header.php'); ?>
+
+<div id="MainpageTitle">
+<strong><p id="">Welcome to SoYo!</p></strong>
+</div>
+  <div id="page-wrap">
+    <ul class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Flavors</a></li>
+      <li><a href="#">Toppings</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
+  </div>
+<img src="imgres.jpg" id="logo">
+<?php include('../footer.php'); ?>
+
+</body>
+
+</html>
