@@ -1,0 +1,204 @@
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+#page-wrap { width: 960px; margin: 60px auto; }
+
+h1 { font: normal 32px Helvetica, Arial, Sans-Serif; letter-spacing: -1px; margin: 0 0 15px 0; }
+body{
+  background-image: url("http://ys-ccc.com/Paper/MF%20Paper/Light%20green%20CK-4102.jpg");
+  background-size: 82em;
+  font: 0.8em  Papyrus, fantasy;
+  padding: 0;
+}
+#MainpageTitle {
+  background-image: url("http://backgrounds.picaboo.com/download/dc/c3/dc35f7a926e64c2aaf1cf5aa6f2b7d89/Purple%20Pattern%201.jpg");
+  background-color: green;
+  width:100%;
+  height:50px;
+  color:black;
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:20px;
+  margin-bottom:0px;
+  border-radius:5px;
+  font-family: Papyrus, fantasy;
+  font-size:45px;
+}
+#logo{
+  position:absolute;
+  width:250px;
+  height:250px;
+  margin-top:-130px;
+  margin-left:276px;
+}
+#quote{
+  z-index:1;
+  position:absolute;
+  margin-top:257px;
+  margin-left:-300px;
+  height:275px;
+  width:300px;
+}
+#info{
+  float:right;
+  margin-top:1px;
+  height:484px;
+  width:410px;
+  position: absolute;
+  margin-right:10px;
+  margin-left:119px;
+  margin-top:120px;
+
+}
+#portal{
+  position:absolute;
+  height:306px;
+  width:325px;
+  margin-left:0px;
+  margin-top:-49px;
+}
+#info2{
+  position:absolute;
+  height:200px;
+  width:171px;
+  margin-top:160px;
+  margin-left:-1px;
+}
+#facebook-icon {
+  background: #433ed3;
+  text-indent: -999em;
+  width: 100px;
+  height: 110px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  border: 15px solid #192b6d;
+  border-bottom: 0;
+  margin-top:-50px;
+  margin-left:20px;
+}
+#facebook-icon::before {
+  content: "/20";
+  position: absolute;
+  background: #433ed3;
+  width: 40px;
+  height: 90px;
+  bottom: -30px;
+  right: -37px;
+  border: 20px solid #eee;
+  border-radius: 25px;
+}
+#facebook-icon::after {
+  content: "/20";
+  position: absolute;
+  width: 55px;
+  top: 50px;
+  height: 20px;
+  background: #eee;
+  right: 5px;
+}
+#curvedarrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-right: 18px solid #591d95;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  margin-top:20px;
+  margin-left:195px;
+}
+#curvedarrow:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 6px solid #591d95;
+  border-radius: 40px 0 0 0;
+  top: -24px;
+  left: -18px;
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+#email{
+  height:85px;
+  width:410px;
+  background-color:#23f090;
+  border:10px solid #591d95;
+  position:absolute;
+  margin-left:180px;
+  margin-top:-123px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top:20px;
+  color:white;
+
+}
+#email2{
+  font-size:20px;
+  font-style: bold;
+}
+#facebook{
+  height:50px;
+  width:120px;
+  background-color:#433ed3;
+  margin-top:10px;
+  position:absolute;
+  margin-left: 20px;
+  text-align:center;
+  border-radius:10px;
+  color:white;
+  border:6px solid #192b6d;
+  padding-top: 10px;
+  text-decoration: none;
+}
+#facebooklink{
+  color:white;
+  text-decoration: none;
+}
+#phone{
+  height:100px;
+  width:100px;
+  background-color:#cf8df3;
+  margin-top:40px;
+  position:absolute;
+  margin-left: 210px;
+  text-align:center;
+  border-radius:50px;
+  color:white;
+  padding-top: -100px;
+  padding-bottom:10px
+  text-decoration: none;
+  font-size:85px;
+}
+#phone1{
+  height:50px;
+  width:270px;
+  background-color:#1bc068;
+  margin-top:40px;
+  position:absolute;
+  margin-left: 320px;
+  text-align:center;
+  border-radius:10px;
+  color:white;
+  padding-top: 30px;
+  padding-bottom:10px
+  text-decoration: none;
+  font-size:20px;
+  border:10px solid #591d95;
+}
+#map{
+  height:200px;
+  width:440px;
+  margin-left:170px;
+  margin-top:160px;
+  position:absolute;
+}

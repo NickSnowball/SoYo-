@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>SoYo mainpage</title>
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+
+  <style>
+
+    .breadcrumb {
+      list-style: none;
+      overflow: hidden;
+      font: 18px Papyrus, fantasy;
+    }
+    .breadcrumb li {
+      float: left;
+    }
+    .breadcrumb li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 0 10px 55px;
+      background: #1df135;                   /* fallback color */
+      background: #1df135;
+      position: relative;
+      display: block;
+      float: left;
+    }
+    .breadcrumb li a:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+      border-bottom: 50px solid transparent;
+      border-left: 30px solid #1df135;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      left: 100%;
+      z-index: 2;
+    }
+    .breadcrumb li a:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+      border-bottom: 50px solid transparent;
+      border-left: 30px solid white;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      margin-left: 1px;
+      left: 100%;
+      z-index: 1;
+    }
+    .breadcrumb li:first-child a {
+      padding-left: 10px;
+    }
+    .breadcrumb li:nth-child(2) a       { background:        #23f090; }
+    .breadcrumb li:nth-child(2) a:after { border-left-color: #23f090; }
+    .breadcrumb li:nth-child(3) a       { background:        #8ef57a; }
+    .breadcrumb li:nth-child(3) a:after { border-left-color: #8ef57a; }
+    .breadcrumb li:nth-child(4) a       { background:        #a2fdb3; }
+    .breadcrumb li:nth-child(4) a:after { border-left-color: #a2fdb3; }
+
+}
+    .breadcrumb li:last-child a:after { border: 0; }
+    .breadcrumb li a:hover { background: #591d95; }
+    .breadcrumb li a:hover:after { border-left-color: #591d95 !important; }
+
+  </style>
+
+</head>
+
+<body>
+
+<?php // $description = ""; ?>
+<?php include('../header.php'); ?>
+<img src="SoYoPics/imgres.jpg" id="logo">
+
+  <div id="page-wrap">
+    <ul class="breadcrumb">
+      <li><a href="mainpage.html">Home</a></li>
+      <li><a href="flavors.html">Flavors</a></li>
+      <li><a href="toppings.html">Toppings</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+
+  </div>
+  <div id="header">
+    <h1>Explore</h1>
+    <ul>
+      <li><a href="gallery.html">The Store</a></li>
+      <li><a href="gallerypeople.html">People</a></li>
+      <li><a href="creations.html">Creations</a></li>
+      <li id="selected"><a href="seasonal.html">Seasonal</a></li>
+    </ul>
+  </div>
+  <div id="TheStore">
+    <center>
+    <table align:center>
+  <tr>
+    <th colspan="2" background="http://ys-ccc.com/Paper/MF%20Paper/Light%20green%20CK-4102.jpg">Seasonal Fun</th>
+  </tr>
+  <tr>
+    <td><a href="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/332422_250446698320921_947015000_o.jpg">
+      <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/332422_250446698320921_947015000_o.jpg" id="pics"></a></td>
+    <td><a href="https://scontent-b-sea.xx.fbcdn.net/hphotos-xpf1/t31.0-8/328489_258178340881090_1080094058_o.jpg">
+      <img src="https://scontent-b-sea.xx.fbcdn.net/hphotos-xpf1/t31.0-8/328489_258178340881090_1080094058_o.jpg" id="pics"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/p417x417/487724_420142838017972_812366572_n.jpg?oh=88d383ae8ef386f2f315891f60ab5228&oe=54E494DF&__gda__=1424165248_2bebd867d8a938caaf82e677ec9be54f">
+      <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/p417x417/487724_420142838017972_812366572_n.jpg?oh=88d383ae8ef386f2f315891f60ab5228&oe=54E494DF&__gda__=1424165248_2bebd867d8a938caaf82e677ec9be54f" id="pics"></a></td>
+    <td><a href="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t35.0-12/1412890_10153399067485068_888350739_o.jpg?oh=d9b7e6866eed652e1b60f42e0a01b54d&oe=544E8D32&__gda__=1414445074_a2197e9fa558c3737da87099c33a77dd">
+      <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t35.0-12/1412890_10153399067485068_888350739_o.jpg?oh=d9b7e6866eed652e1b60f42e0a01b54d&oe=544E8D32&__gda__=1414445074_a2197e9fa558c3737da87099c33a77dd" id="pics"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://scontent-a-sea.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1472785_496543067044615_1995708168_n.jpg?oh=8235a87ffe49f6f37ef47d41e45cb341&oe=54AB4DC3">
+      <img src="https://scontent-a-sea.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1472785_496543067044615_1995708168_n.jpg?oh=8235a87ffe49f6f37ef47d41e45cb341&oe=54AB4DC3" id="pics"></a></td>
+    <td><a href="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1471800_496543380377917_1844017712_n.jpg?oh=d13ac87ca0a88eaa04f1573310b47ac1&oe=54F67E84&__gda__=1425102176_497bcb197733c2fafa7081c686f16782">
+      <img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1471800_496543380377917_1844017712_n.jpg?oh=d13ac87ca0a88eaa04f1573310b47ac1&oe=54F67E84&__gda__=1425102176_497bcb197733c2fafa7081c686f16782" id="pics"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://scontent-b-sea.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1911167_513681028664152_1318481855_o.jpg">
+    <img src="https://scontent-b-sea.xx.fbcdn.net/hphotos-xfp1/t31.0-8/1911167_513681028664152_1318481855_o.jpg" id="pics"></a></td>
+    <td> <a href="https://scontent-b-sea.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1897888_515312791834309_2041262091_n.jpg?oh=087076e9cbcf065900b796b162c4a4a5&oe=54ED1A32">
+    <img src="https://scontent-b-sea.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1897888_515312791834309_2041262091_n.jpg?oh=087076e9cbcf065900b796b162c4a4a5&oe=54ED1A32" id="pics"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://scontent-a-sea.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10628347_585153898183531_2612706565018177743_n.jpg?oh=1935b333e1a4982f5c939ffb67b754f0&oe=54F6BBCE">
+    <img src="https://scontent-a-sea.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10628347_585153898183531_2612706565018177743_n.jpg?oh=1935b333e1a4982f5c939ffb67b754f0&oe=54F6BBCE" id="pics"></a></td>
+    <td><a href="https://scontent-b-sea.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/988385_496542793711309_62302075_n.jpg?oh=ed1d6e4a4a65dbaf6b69bc72e8907b8e&oe=54E51045">
+    <img src="https://scontent-b-sea.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/988385_496542793711309_62302075_n.jpg?oh=ed1d6e4a4a65dbaf6b69bc72e8907b8e&oe=54E51045" id="pics"></a></td>
+  </tr>
+</table>
+</center>
+<a href="http://www.youtube.com/watch?v=08pVpBq706k" id="cats">
+(ृ˄·͈༝·͈˄ ृ )
+ </a>
+  </div>
+<?php include('../footer.php'); ?>
+
+</body>
+
+</html>
